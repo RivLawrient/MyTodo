@@ -1,0 +1,336 @@
+.body{
+    background-color: #424242;
+
+}
+
+@font-face {
+    font-family: alata;
+    src: url(../assets/Alata-Regular.ttf);
+}
+.all{
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+.mytodo-view{
+    /*background-color: red;*/
+    width: 400px;
+    margin: 0px auto;
+}
+
+.mytodo-logout{
+    float: right;
+}
+
+.mytodo-account {
+    font-family: alata;
+    font-size: 20px;
+    color: #d9d9d9;
+    margin: 0;
+}
+
+.mytodo-btn-logout {
+    font-family: alata;
+    font-size: 25px;
+    text-align: center;
+    width: 140px;
+    height: 35px;
+    float: right;
+    background-color: #b1b1b1;
+    cursor: pointer;
+}
+
+
+
+
+
+.mytodo-judul{
+    color: white;
+    text-align: center;
+    font-size: 75px;
+    margin: 20px auto;
+    font-family: alata;
+}
+
+.mytodo-container{
+    width: 400px;
+    height: 360px;
+    background-color: #d9d9d9;
+    margin: 180px auto 0;
+    border-radius: 0 30px 0 0;
+}
+
+.mode{
+    margin: 180px 180px 0;
+}
+
+.mytodo-arrow{
+    width: 30px;
+    margin: 0 auto;
+    display: flex;
+    /*cursor: pointer;*/
+}
+
+.mytodo-navbar img{
+    height: 34px;
+    position: absolute;
+    margin: 13px;
+    cursor: pointer;
+
+}
+.mytodo-navbar img:active{
+    background-color: red;
+}
+
+.mytodo-navbar h1{
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    margin: 0;
+    color: #d9d9d9;
+    font-size: 37px;
+    background-color: #b8b8b8;
+    border-radius: 0 30px 0 0;
+    font-family: alata;
+}
+
+.mytodo-conti{
+    width: 284px;
+    height: 360px;
+    margin: 160px -120px 0;
+    background-color: #d9d9d9;
+    border-radius: 30px 0 0 30px;
+    position: absolute;
+    display: none;
+}
+
+.modee{
+    display: block;
+}
+
+.mytodo-selected{
+    display: flex;
+    border-bottom: 1px solid #b8b8b8;
+
+}
+
+.mytodo-selected img{
+    width: 40px;
+    height: 41.25px;
+    display: flex;
+    margin: 20.1px 0 20.1px 10px;
+}
+
+
+.mytodo-selected h1{
+    font-family: alata;
+    font-size: 35px;
+    height: 20px;
+    padding-left: 50px;
+    /*text-align: center;*/
+    /*margin: 10px;*/
+    /*display: inline-block;*/
+}
+
+.mytodo-todo span{
+    width: 10px;
+    height: 25px;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+    /*float: left;*/
+}
+
+.mytodo-todo input{
+    width: 160px;
+    margin-left: 5px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #b1b1b1;
+    font-family: alata;
+    border: 1px;
+    background-color: transparent;
+    outline: none;
+    /*animation: rightToLeft 2s forwards;*/
+    /*transition: all 2s ease-in-out;*/
+}
+/*.todo input:hover{*/
+/*    !*position: absolute;*!*/
+/*    !*width: 100%;*!*/
+/*    color: red;*/
+/*    direction: rtl;*/
+/*    overflow: unset;*/
+/*}*/
+.mytodo-select{
+    /*content: url("../assets/pause.svg");*/
+    width: 25px;
+    cursor: pointer;
+}
+.selected{
+    content: url("../assets/play.svg");
+    width: 25px;
+    cursor: pointer;
+}
+
+.mytodo-todo ul{
+    margin-top: 30px;
+    padding-left: 15px;
+    height: 280px;
+    list-style-type: none;
+    overflow: auto;
+}
+
+.mytodo-todo li{
+    text-decoration: none;
+    font-size: 30px;
+    color: #b1b1b1;
+    height: auto;
+    font-family: alata;
+}
+
+.mytodo-trash{
+
+    width: 35px;
+    float: right;
+    margin: 5px;
+    display: none;
+}
+
+.mytodo-todo li:hover .mytodo-trash{
+    color: red;
+    float: right;
+    margin-right: 0;
+    /*padding-top: ;*/
+    cursor: pointer;
+    display: block;
+}
+
+.mytodo-add {
+    width: 45px;
+    height: 45px;
+    /*background-color: #b1b1b1;*/
+    /*color: #424242;*/
+    /*border-radius: 90px;*/
+    /*float: right;*/
+    margin: 10px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+
+
+
+.mytodo-cont{
+    /*background-color: #b8b8b8;*/
+    display: grid;
+    margin: 17px auto;
+    grid-template-columns: 330px;
+    justify-content: center;
+}
+/*.mytodo-cont img{*/
+/*    cursor: pointer;*/
+/*}*/
+
+.mytodo-do{
+    width: 330px;
+    height: 40px;
+    background-color: #d9d9d9;
+    border-radius: 17px;
+    /*margin: 17px 0 0 0;*/
+    color: #B1B1B1;
+    font-size: 27px;
+    line-height: 40px;
+    padding: 0 20px 0 20px;
+    /*box-sizing: border-box;*/
+    border: none;
+    outline: none;
+    font-family: alata;
+    /*cursor: ;*/
+}
+
+
+::placeholder{
+    color: #b1b1b1  ;
+    opacity: 1;
+}
+
+.mytodo-cont img{
+    width: 25px;
+    margin: 8px;
+}
+
+.mytodo-list ul{
+    margin-top: 10px;
+    max-height: 250px;
+    list-style-type: none;
+    overflow: auto;
+    padding-left: 10px;
+}
+
+.mytodo-list li{
+    text-decoration: none;
+    /*margin-left: 30px;*/
+    font-size: 30px;
+    color: black;
+    font-family: alata;
+    /*cursor: pointer;*/
+}
+
+.mytodo-list span{
+    width: 20px;
+    height: 20px;
+    border: 3px solid black;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 90px;
+}
+
+.mytodo-list-input{
+    width: 280px;
+    margin-left: 5px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-family: alata;
+}
+
+.input-selct{
+    text-decoration: line-through;
+    color: #b8b8b8;
+}
+
+.mytodo-list .select{
+    background-color: black;
+}
+
+/*.list li:hover::after{*/
+/*    color: red;*/
+/*    content: "del";*/
+/*    float: right;*/
+/*    margin-right: 5px;*/
+/*    cursor: pointer;*/
+/*}*/
+
+.mytodo-list img{
+    width: 25px;
+    float: right;
+    margin: 10px;
+    display: none;
+}
+
+.mytodo-list li:hover .mytodo-del{
+    color: red;
+    float: right;
+    margin-right: 5px;
+    cursor: pointer;
+    display: block;
+}

@@ -1,0 +1,99 @@
+body{
+    background-color: #424242;
+}
+
+@font-face {
+    font-family: alata;
+    src: url(../assets/Alata-Regular.ttf);
+}
+
+.registe-view{
+    /*background-color: red;*/
+    width: 400px;
+    margin: 0px auto;
+}
+
+
+
+.register-judul{
+    color: white;
+    text-align: center;
+    font-size: 75px;
+    margin: 20px auto;
+    font-family: alata;
+}
+
+.register-container{
+    width: 420px;
+    height: 500px;
+    background-color: #d9d9d9;
+    margin: 170px auto 0;
+    padding-top: 0;
+}
+
+.register-container h1{
+    margin-top: 0;
+    text-align: center;
+    font-family: alata;
+    font-size: 45px;
+}
+
+.register-container input{
+    display: block;
+    margin: 0 auto;
+    width: 330px;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 25px;
+    font-family: alata;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.register-container div{
+    font-family: alata;
+    text-align: left;
+    font-size: 15px;
+    margin-inline: 30px;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+.register-container button{
+    width: 330px;
+    height: 35px;
+    display: block;
+    margin: 35px auto 0 auto;
+    font-family: alata;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+
+.register-container h2{
+    font-family: alata;
+    color: red;
+    text-align: center;
+    font-size: 25px;
+    margin: 0px;
+}
+.register-container button:active{
+    background-color: #a8a8a8;
+}
+
+.back{
+    /*background-color: red;*/
+    position: relative;
+    width: 420px;
+    margin: 10px auto 0;
+    bottom: 0;
+}
+
+.back h1{
+    background-color: #d9d9d9;
+    /*width: 200px;*/
+    cursor: pointer;
+    text-align: center;
+}
